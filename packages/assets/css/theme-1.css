@@ -1,0 +1,48 @@
+.form-designer .fields-list .field-label{
+    border: 1px solid transparent !important;
+}
+.form-designer .fields-list .field-label:hover{
+    border: 1px dashed #FF974C !important;
+}
+.form-designer .fields-list .field-label > a{
+    background: #FFFAF7 !important;
+    border: 1px solid #FFEDE0 !important;
+}
+.form-designer .fields-list .field-label > a .icon{
+    color:#FF974C;
+}
+.form-designer .fields-list .field-label > a span{
+    color: #555;
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+}
+.el-button--text{
+    color:#FF974C !important;
+}
+.el-tabs__item.is-active{
+    color:#FF974C !important;
+}
+.el-tabs__active-bar{
+    background: #FF974C !important;
+}
+.form-designer .widget-form-container .widget-form-list .widget-form-item.active{
+    border-color:#FF974C !important;
+}
+.el-button--primary.is-plain{
+    color:#fff !important;
+    border-color: #FF974C !important;
+}
+.el-input.is-active .el-input__inner, .el-input__inner:focus{
+    border-color: #FF974C !important;
+}
+.el-input__inner:hover{
+    border-color: #FF974C !important;
+}
+.el-switch.is-checked .el-switch__core{
+    border-color: #FF974C !important;
+    background-color: #FF974C !important;
+}
+.el-button--primary{
+    border-color: #FF974C !important;
+    background-color: #FF974C !important;
+}

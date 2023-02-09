@@ -1,0 +1,88 @@
+{
+  "name": "form-design-h5",
+  "author": "roffer",
+  "version": "1.1.9",
+  "private": false,
+  "main": "lib/index.umd.min.js",
+  "keywords": [
+    "vue",
+    "form",
+    "design"
+  ],
+  "author": {
+    "email": "497664492@qq.com",
+    "name": "Roffer",
+    "url": "www.lonhey.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve --mode dev",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name formDesignH5 --dest lib --filename index --formats umd-min ./packages/index.js"
+  },
+  "dependencies": {
+    "avue-plugin-map": "^0.0.7",
+    "avue-plugin-ueditor": "^0.0.8",
+    "core-js": "^3.6.5",
+    "less-loader": "^6.2.0",
+    "qs": "^6.9.4",
+    "v-jsoneditor": "^1.2.1",
+    "vant": "^2.6.0",
+    "vue": "^2.6.10",
+    "axios": "^0.19.0",
+    "vue-cookies": "^1.5.13",
+    "vue-ueditor-wrap": "^2.4.1",
+    "vuedraggable": "^2.23.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-eslint": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.0.1",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/roffer-d/form-design-h5"
+  },
+  "keywords": [
+    "vue",
+    "element-ui",
+    "form",
+    "design"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "license": "MIT"
+}
